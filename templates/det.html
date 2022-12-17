@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Get Details</title>
+</head>
+<body>
+<center>
+	<form action="" method="POST">
+		<u><h1>Enter Your Social media Details {{name}} !</h1></u><br><br>
+
+		<label>Who's Details You want to Store {{name}} ?</label>
+		<input type="text" name="uqrn" required><br><br>
+
+		<label>Instagram</label>
+		<input type="Link" name="insta" placeholder="Insta" required><br><br>
+
+		<label>Youtube</label>
+		<input type="Link" name="yt" placeholder="Youtube">
+		<br><br>
+
+		<label>LinkDin</label>
+		<input type="Link" name="lkd" placeholder="LinkDin">
+		<br><br>
+
+		<label>Facebook</label>
+		<input type="Link" name="fb" placeholder="fb" required>
+		<br><br>
+
+		<label>Gitup</label>
+		<input type="Link" name="git" placeholder="Gitup">
+		<br><br>
+
+		<label>whats app</label>
+		<input type="Link" name="whp" placeholder="whp">
+		<br><br>
+
+
+
+		<label>Which name you want to generate your qr ?</label><br><br>
+		<input  type="name" name="qrname" placeholder="sample.PNG" required><br><br>
+
+
+		<input type="submit" value="Generate QR"><br><br>
+		<a href="{{url_for('menu')}}">Go Back</a>
+	</form>
+	</form>
+</center>
+</body>
+</html>

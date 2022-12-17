@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reg.css">
+	<title> Web Api</title>
+</head>
+
+<body>
+
+	<span><h2 id="smt">Welcome to smartipie</h2></span>
+	
+	<form action="" method="post">
+		
+		
+		<h2 id="nu"> New User !</h2>
+
+		<label id="name" >Name</label> 
+		<input type="text" name="name"> 
+
+		<label id="email" >Email</label> 
+		<input type="Email" name="email">
+
+		<label id="pass" >New Password </label> 
+		<input type="Password" name="p1"> 
+
+		<label id="repass" >Re Password</label> 
+		<input type="Password" name="p2">
+
+	 <div id="bt">
+
+	<button id="rg" type="button" onclick="window.location.href='{{url_for('log')}}'">Register now</button>
+	<button id="lg" type="button" onclick="window.location.href='{{url_for('log')}}'">Login</button>	
+
+	</div>
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,102 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-color: azure;
+}
+img{
+    background-image: url(C:\Users\Sridhar S\Desktop\Ss pro\Web Api\temp\Req\reg.JPG);
+    width: 101%;
+    height: 80%;
+}
+
+
+form
+
+{
+
+margin-right: 10%;
+margin-top: 10%;
+
+width: 25rem;
+height: 38rem;
+display: flex;
+
+background: rgba(255, 255,255,0.06);
+box-shadow: 0 8px 32px 0 black;
+border-left: 1px solid rgba(255,255,255,.3);
+border-radius: 30px;
+border-top: 1px solid rgba(255,255,255,.3);
+flex-flow: column;
+position: center;
+}
+
+label{
+    font-size: 20px;
+    color: rgb(236, 4, 178);
+    margin-left: 10%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);    
+}
+
+input{
+
+    width: 80%;
+    margin: 5% auto;
+    border: none;
+    outline: none;
+
+    background: transparent;
+    color:black;
+    border-bottom: 1px solid black;
+    opacity: .8;
+
+}
+
+#lg{
+    width: 50%;
+    margin: 5% auto;
+    color: blue;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255,255,0.06);
+    padding: 10px 3px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    margin-left: 10%;
+    text-align: left;
+
+}
+
+#rg{
+    width: 50%;
+    margin: 5% auto;
+    color: blue;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255, 255,255,0.06);
+    padding: 10px 3px;
+    border: none;
+    outline: none;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    margin-right: 10%;
+
+}
+
+
+#smt{
+text-align: right;
+margin-left: 20%;
+}
+
+#nu{
+    text-align: center;
+    margin-left: 10%;
+}
+
+#lg{
+    text-align: center;
+    margin-left: 10%;
+}

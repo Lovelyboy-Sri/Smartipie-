@@ -1,0 +1,26 @@
+body{
+	background-size: cover;
+	background-attachment: fixed;
+	background-position: center;
+	background-color: azure;
+	justify-content: center;
+	align-items: center;
+}
+img{
+	width: 101%;
+	height: 80%;
+}
+.login-box{
+	background-color: rgba(0, 0, 0, 0.2);
+	height: 450px;
+	width: 420px;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	padding: 40px;
+	margin: 100px auto;
+	transform: translate(-50%, -80%);
+	box-sizing: border-box;
+	padding: 70px 40px;
+	border-radius: 20px;
+}

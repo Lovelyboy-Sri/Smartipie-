@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="log.css">
+</head>
+
+<body>
+	<form action="{{url_for('log')}}" method='post' >
+		<center>
+			<h1>Welcome to Smartipie !</h1>
+			<b><h2>Login here</h2></b><br><br>
+
+			<label>Email </label>
+			<input type="Email" name="email" required ><br><br>
+
+			<label>Password</label>
+			<input type="show Password" name="p2" placeholder="Password" required><br><br>
+
+			<input type="submit" name="Login">
+			<button type="button" onclick="window.location.href='{{url_for('index')}}'">Register now</button><br><br>
+
+			<a href="">Forgot password</a> <br> <a href="{{url_for('admin')}}">Admin pannel</a>
+		</center>
+	</form>
+
+</body>
+</html>

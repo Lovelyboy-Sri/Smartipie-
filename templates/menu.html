@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Menu</title>
+</head>
+<body>
+<form>
+	<center>
+		<h1>Select your Opinion {{name}}!</h1><a href="{{url_for('logout')}}">Logout</a><br><br>
+
+		<button type="button" onclick="window.location.href='{{url_for('myqr')}}'">My QR</button><br><br>
+		<button type="button" onclick="window.location.href='{{url_for('main')}}'">Generate NewOne</button><br><br>
+
+		<button type="button" onclick="window.location.href='{{url_for('gen')}}'">Edit my details</button><br><br>
+
+		<button type="button" onclick="window.location.href='{{url_for('qrweb')}}'">My Collections</button><br><br>
+
+	</center>
+</form>
+</body>
+</html>
