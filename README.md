@@ -1,2 +1,2 @@
-# qr
+# Smartipie 
 Qr based on project 
